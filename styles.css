@@ -1,6 +1,4 @@
-/* --------------------- */
-/* VARIABLES DE DISEÑO   */
-/* --------------------- */
+
 :root {
     --bg:#0f1724;
     --card:#0b1220;
@@ -25,12 +23,12 @@ body{
 .skills {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px 12px; /* <-- separación vertical y horizontal */
-    margin-top: 12px; /* <-- separación hacia arriba */
+    gap: 12px 12px; 
+    margin-top: 12px; 
 }
 
 
-/* LAYOUT */
+
 .container{
     max-width:1000px;
     margin:auto;
@@ -39,9 +37,7 @@ body{
     gap:24px;
 }
 
-/* --------------------- */
-/* PERFIL IZQUIERDO */
-/* --------------------- */
+
 .profile{
     background:linear-gradient(180deg,var(--card),rgba(12,18,28,0.7));
     padding:22px;
